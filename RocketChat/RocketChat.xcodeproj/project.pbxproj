@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		985338054268FC8E2B0498C2 /* Pods_RocketChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C42AABBEAB4AF17C2C6B17 /* Pods_RocketChat.framework */; };
+		D3B11E7127B3A8B400B3FC17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3B11E7027B3A8B400B3FC17 /* GoogleService-Info.plist */; };
+		D3B11E7327B3B44200B3FC17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B11E7227B3B44200B3FC17 /* Constants.swift */; };
+		D3B11E7527B4E63200B3FC17 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B11E7427B4E63200B3FC17 /* Message.swift */; };
+		D3B11E7927B4ED7400B3FC17 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B11E7727B4ED7400B3FC17 /* MessageCell.swift */; };
+		D3B11E7A27B4ED7400B3FC17 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B11E7827B4ED7400B3FC17 /* MessageCell.xib */; };
+		D3F0765327B39FEC00D2A374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0765227B39FEC00D2A374 /* AppDelegate.swift */; };
+		D3F0765527B39FEC00D2A374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0765427B39FEC00D2A374 /* SceneDelegate.swift */; };
+		D3F0765727B39FEC00D2A374 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0765627B39FEC00D2A374 /* WelcomeViewController.swift */; };
+		D3F0765A27B39FEC00D2A374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F0765827B39FEC00D2A374 /* Main.storyboard */; };
+		D3F0765C27B39FEE00D2A374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F0765B27B39FEE00D2A374 /* Assets.xcassets */; };
+		D3F0765F27B39FEE00D2A374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F0765D27B39FEE00D2A374 /* LaunchScreen.storyboard */; };
+		D3F0766727B3A2A200D2A374 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0766627B3A2A200D2A374 /* LoginViewController.swift */; };
+		D3F0766A27B3A2BE00D2A374 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0766927B3A2BE00D2A374 /* ChatViewController.swift */; };
+		D3F0766C27B3A2ED00D2A374 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0766B27B3A2ED00D2A374 /* RegistrationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		122C6F16958CA020E7309442 /* Pods-RocketChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketChat.debug.xcconfig"; path = "Target Support Files/Pods-RocketChat/Pods-RocketChat.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B11E7027B3A8B400B3FC17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3B11E7227B3B44200B3FC17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D3B11E7427B4E63200B3FC17 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D3B11E7727B4ED7400B3FC17 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		D3B11E7827B4ED7400B3FC17 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		D3C42AABBEAB4AF17C2C6B17 /* Pods_RocketChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RocketChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F0764F27B39FEC00D2A374 /* RocketChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F0765227B39FEC00D2A374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3F0765427B39FEC00D2A374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3F0765627B39FEC00D2A374 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D3F0765927B39FEC00D2A374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3F0765B27B39FEE00D2A374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3F0765E27B39FEE00D2A374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3F0766027B39FEE00D2A374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F0766627B3A2A200D2A374 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D3F0766927B3A2BE00D2A374 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		D3F0766B27B3A2ED00D2A374 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		E00C7C2725F2BC294962821B /* Pods-RocketChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketChat.release.xcconfig"; path = "Target Support Files/Pods-RocketChat/Pods-RocketChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3F0764C27B39FEC00D2A374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985338054268FC8E2B0498C2 /* Pods_RocketChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C2847C65B2A9FC21B100F58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				122C6F16958CA020E7309442 /* Pods-RocketChat.debug.xcconfig */,
+				E00C7C2725F2BC294962821B /* Pods-RocketChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3B11E6F27B3A71E00B3FC17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3B11E7427B4E63200B3FC17 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3B11E7627B4ED4100B3FC17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3B11E7727B4ED7400B3FC17 /* MessageCell.swift */,
+				D3B11E7827B4ED7400B3FC17 /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3F0764627B39FEC00D2A374 = {
+			isa = PBXGroup;
+			children = (
+				D3F0765127B39FEC00D2A374 /* RocketChat */,
+				D3F0765027B39FEC00D2A374 /* Products */,
+				6C2847C65B2A9FC21B100F58 /* Pods */,
+				E627AA9A358A15D10CFFF350 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3F0765027B39FEC00D2A374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3F0764F27B39FEC00D2A374 /* RocketChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3F0765127B39FEC00D2A374 /* RocketChat */ = {
+			isa = PBXGroup;
+			children = (
+				D3F0765227B39FEC00D2A374 /* AppDelegate.swift */,
+				D3F0765427B39FEC00D2A374 /* SceneDelegate.swift */,
+				D3B11E7227B3B44200B3FC17 /* Constants.swift */,
+				D3B11E7627B4ED4100B3FC17 /* Views */,
+				D3B11E6F27B3A71E00B3FC17 /* Model */,
+				D3F0766827B3A2A900D2A374 /* Controllers */,
+				D3F0765827B39FEC00D2A374 /* Main.storyboard */,
+				D3F0765B27B39FEE00D2A374 /* Assets.xcassets */,
+				D3F0765D27B39FEE00D2A374 /* LaunchScreen.storyboard */,
+				D3F0766027B39FEE00D2A374 /* Info.plist */,
+				D3B11E7027B3A8B400B3FC17 /* GoogleService-Info.plist */,
+			);
+			path = RocketChat;
+			sourceTree = "<group>";
+		};
+		D3F0766827B3A2A900D2A374 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3F0765627B39FEC00D2A374 /* WelcomeViewController.swift */,
+				D3F0766627B3A2A200D2A374 /* LoginViewController.swift */,
+				D3F0766B27B3A2ED00D2A374 /* RegistrationViewController.swift */,
+				D3F0766927B3A2BE00D2A374 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E627AA9A358A15D10CFFF350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3C42AABBEAB4AF17C2C6B17 /* Pods_RocketChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3F0764E27B39FEC00D2A374 /* RocketChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F0766327B39FEE00D2A374 /* Build configuration list for PBXNativeTarget "RocketChat" */;
+			buildPhases = (
+				4D233FD751714CA0085A0360 /* [CP] Check Pods Manifest.lock */,
+				D3F0764B27B39FEC00D2A374 /* Sources */,
+				D3F0764C27B39FEC00D2A374 /* Frameworks */,
+				D3F0764D27B39FEC00D2A374 /* Resources */,
+				5E0ADA4F68EF269A89CF77ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketChat;
+			productName = RocketChat;
+			productReference = D3F0764F27B39FEC00D2A374 /* RocketChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3F0764727B39FEC00D2A374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D3F0764E27B39FEC00D2A374 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D3F0764A27B39FEC00D2A374 /* Build configuration list for PBXProject "RocketChat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3F0764627B39FEC00D2A374;
+			productRefGroup = D3F0765027B39FEC00D2A374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3F0764E27B39FEC00D2A374 /* RocketChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3F0764D27B39FEC00D2A374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B11E7A27B4ED7400B3FC17 /* MessageCell.xib in Resources */,
+				D3F0765F27B39FEE00D2A374 /* LaunchScreen.storyboard in Resources */,
+				D3B11E7127B3A8B400B3FC17 /* GoogleService-Info.plist in Resources */,
+				D3F0765C27B39FEE00D2A374 /* Assets.xcassets in Resources */,
+				D3F0765A27B39FEC00D2A374 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D233FD751714CA0085A0360 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RocketChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E0ADA4F68EF269A89CF77ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketChat/Pods-RocketChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketChat/Pods-RocketChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RocketChat/Pods-RocketChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3F0764B27B39FEC00D2A374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F0766C27B3A2ED00D2A374 /* RegistrationViewController.swift in Sources */,
+				D3F0766727B3A2A200D2A374 /* LoginViewController.swift in Sources */,
+				D3F0765727B39FEC00D2A374 /* WelcomeViewController.swift in Sources */,
+				D3F0765327B39FEC00D2A374 /* AppDelegate.swift in Sources */,
+				D3B11E7327B3B44200B3FC17 /* Constants.swift in Sources */,
+				D3B11E7527B4E63200B3FC17 /* Message.swift in Sources */,
+				D3F0766A27B3A2BE00D2A374 /* ChatViewController.swift in Sources */,
+				D3F0765527B39FEC00D2A374 /* SceneDelegate.swift in Sources */,
+				D3B11E7927B4ED7400B3FC17 /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3F0765827B39FEC00D2A374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F0765927B39FEC00D2A374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3F0765D27B39FEE00D2A374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F0765E27B39FEE00D2A374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3F0766127B39FEE00D2A374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3F0766227B39FEE00D2A374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3F0766427B39FEE00D2A374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122C6F16958CA020E7309442 /* Pods-RocketChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95S4N2TWZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RocketChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abylay.RocketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3F0766527B39FEE00D2A374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00C7C2725F2BC294962821B /* Pods-RocketChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95S4N2TWZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RocketChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abylay.RocketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3F0764A27B39FEC00D2A374 /* Build configuration list for PBXProject "RocketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F0766127B39FEE00D2A374 /* Debug */,
+				D3F0766227B39FEE00D2A374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F0766327B39FEE00D2A374 /* Build configuration list for PBXNativeTarget "RocketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F0766427B39FEE00D2A374 /* Debug */,
+				D3F0766527B39FEE00D2A374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3F0764727B39FEC00D2A374 /* Project object */;
+}
